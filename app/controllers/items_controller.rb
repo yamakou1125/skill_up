@@ -15,4 +15,8 @@ def create
     end
 end
 
+def index
+  @items = Item.all
+end
+
 end
