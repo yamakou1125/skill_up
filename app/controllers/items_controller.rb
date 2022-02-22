@@ -16,7 +16,7 @@ def create
 end
 
 def index
-  @items = Item.all
+  @items = current_user.items
 end
 
 end
