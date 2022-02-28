@@ -15,8 +15,9 @@ ActiveRecord::Schema.define(version: 2022_02_07_112919) do
   create_table "items", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "iard"
-    t.string "iher"
+    t.integer "iard"
+    t.integer "iher"
+    t.integer "fsp"
   end
 
   create_table "users", force: :cascade do |t|

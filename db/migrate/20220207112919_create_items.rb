@@ -3,8 +3,9 @@ class CreateItems < ActiveRecord::Migration[5.2]
     create_table :items do |t|
 
       t.timestamps
-      t.string :iard
-      t.string :iher
+      t.integer :iard
+      t.integer :iher
+      t.integer :fsp
     end
   end
 end
