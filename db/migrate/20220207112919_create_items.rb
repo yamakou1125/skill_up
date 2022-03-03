@@ -5,6 +5,7 @@ class CreateItems < ActiveRecord::Migration[5.2]
       t.timestamps
       t.integer :iard
       t.integer :iher
+      t.integer :lcln
       t.integer :fsp
     end
   end
