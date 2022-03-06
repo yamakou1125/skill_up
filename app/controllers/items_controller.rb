@@ -9,7 +9,7 @@ def create
       @item.user_id = current_user.id
     if @item.save
       flash[:notice] = "登録が完了しました。"
-      redirect_to new_items
+      redirect_to items_path
     else
       render :new
     end
